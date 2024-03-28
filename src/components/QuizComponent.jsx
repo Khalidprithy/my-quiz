@@ -38,6 +38,7 @@ const QuizComponent = ({ questions }) => {
       if (timeLeft > 0 && !isAnswered) {
         setState(prevState => ({ ...prevState, timeLeft: timeLeft - 1 }));
       } else if (!isAnswered) {
+        setCardBackgroundColor('bg-red-300');
         handleAnswer(false);
       }
     }, 1000);
