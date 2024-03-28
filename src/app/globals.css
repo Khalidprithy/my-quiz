@@ -2,10 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.progress-bar {
-  height: 4px;
-  background-color: #4299e1; /* Blue color for the progress bar */
-  transition: width 0.5s linear; /* Linear transition for the width */
- }
- 

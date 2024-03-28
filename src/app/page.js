@@ -8,7 +8,7 @@ export default function Page() {
       "question": "What is the capital of France?",
       "options": ["London", "Paris", "Berlin", "Madrid"],
       "answer": "Paris",
-      "time_limit_seconds": 15
+      "time_limit_seconds": 5
     },
     {
       "question": "Which planet is known as the Red Planet?",
