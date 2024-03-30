@@ -335,7 +335,7 @@ const QuizComponent = ({ questions }) => {
           </ul>
           <button
             onClick={handleCheckBoxSubmit}
-            className='mt-2 p-2 bg-blue-500 text-white rounded-lg'
+            className='mt-2 p-2 bg-blue-500 text-white rounded-lg w-full'
           >
             Submit
           </button>
